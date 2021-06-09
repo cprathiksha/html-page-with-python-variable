@@ -3,7 +3,7 @@ import time
 
 sometext = "Hi there!"
 
-html_content = f"<html> <head> <h1>{sometext}</h1> </head> <body> </body> </hmtl>"
+html_content = f"<html> <head> <h1>{sometext}</h1> </head> <body> </body> </hmtl>" //assigning html tags to variable
 
 with open("index.html","w") as html_file:  //creating index.html file with write file permission
     html_file.write(html_content)  
