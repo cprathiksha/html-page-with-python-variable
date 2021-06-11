@@ -9,5 +9,5 @@ with open("index.html","w") as html_file:
     html_file.write(html_content)  
     print("Html file created!")
 
-time.sleep(2);
+time.sleep(4);
 webbrowser.open_new_tab("index.html") 
