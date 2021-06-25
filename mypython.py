@@ -1,7 +1,7 @@
 import webbrowser
 import time
 
-sometext = "Hi there!"
+sometext = "Hey there!"
 
 html_content = f"<html> <head> <h1>{sometext}</h1> </head> <body> </body> </hmtl>" 
 
